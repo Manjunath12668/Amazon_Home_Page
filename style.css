@@ -13,11 +13,14 @@ a{
     color: inherit;
 }
 .navbar{
+    position: fixed;
+    z-index: 999;
+    width: 100%;   
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color:rgb(19, 17, 17);
-    padding: 10px 20px;
+    padding: 15px 30px;
     color:white;
 }
 .nav-location{
@@ -83,19 +86,27 @@ a{
     margin: 0px 15px;
 }
 .nav-bottom{
+    position: fixed;
+    z-index: 999;
+    top: 78px;
+    height: 50px;
+    width: 100%; 
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
     padding: 8px 20px;
     background-color: #232f3e ;
     color: white;
-    font-size: 15px;
+    font-size: 18px;
 }
 .nav-bottom div{
     display: flex;
     align-items: center;
     gap: 5px ;
     font-weight: 500;
+}
+.nav-bottom div a img{
+    margin-right: 10px;
 }
 .header-slider {
     position: relative;
